@@ -7,7 +7,7 @@
             function add(){
             
             
-            list++;
+            
             var name=document.getElementById("name").value;
    var author=document.getElementById("author").value;
        
@@ -25,6 +25,7 @@
    }
    
    else{
+        list++;
         var row=document.createElement("tr"); 
         var cell1=document.createElement("td");
         var cell2=document.createElement("td");
